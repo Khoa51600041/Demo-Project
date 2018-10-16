@@ -10,54 +10,6 @@ html, body {
 #header-top {
     width: 100%;
 }
-/* Search-box */
-.container-2{
-  width: 200px;
-  vertical-align: middle;
-  white-space: nowrap;
-  position: relative;
-  background-color: none;
-}
-/*Search box */
-#search {
-  background-color: #D83535
-}
-.container-2 input#search{
-  width: 40px;
-  height: 50px;
-  border: none;
-  font-size: 10pt;
-  float: left;
-  padding-left: 45px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-transition: width .55s ease;
-  -moz-transition: width .55s ease;
-  -ms-transition: width .55s ease;
-  -o-transition: width .55s ease;
-  transition: width .55s ease;
-}
-.container-2 .icon{
-  position: absolute;
-  top: 50%;
-  margin-left: 10px;
-  margin-top: 10px;
-  z-index: 1;
-  color: white;
-  font-size: 20px;
-}
-.container-2 input#search:focus, .container-2 input#search:active{
-  outline:none;
-  width: 200px;
-}
-.container-2:hover input#search{
-  width: 200px;
-}
-.container-2:hover .icon{
-  color: #93a2ad;
-}
-
 /* Nav-menu */
 .navbar {
     width: 100%;
